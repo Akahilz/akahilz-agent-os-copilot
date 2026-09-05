@@ -1,4 +1,4 @@
-# 🤖 Akahilz E-Learning Academy – K-Agent (Content & Execution Co-Pilot)
+# 🤖 Akahilz E-Learning Academy – K-Agent (KOL Content & Execution Co-Pilot)
 
 A simple, 100% no-code AI agent built with the official **Binance Agent OS**.
 
@@ -11,7 +11,7 @@ Built for the **Binance Agent OS Mini Hackathon (Track A)** and **Binance Creato
 
 ---
 
-## ✨ What This Agent Does
+## ✨ What This KOL Agent Does
 
 1. Shows your current USDT balance in the Agentic sub-account  
 2. Scans live order book depth and 24-hour data for BNB, BTC, and ETH  
@@ -46,7 +46,7 @@ Use the free Claude Desktop app or go to [claude.ai](https://claude.ai) in your 
 
 ---
 
-## 🚀 How to Run the Agent
+## 🚀 How to Run the KOL Agent
 
 Copy the prompt from the `prompts.txt` file in this repository and paste it into Claude.
 
