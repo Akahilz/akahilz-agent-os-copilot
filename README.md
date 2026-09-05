@@ -1,53 +1,71 @@
-# 🤖 Akahilz E-Learning Academy: No-Code KOL Media & Execution Engine
+# 🤖 Akahilz E-Learning Academy – K-Agent (Content & Execution Co-Pilot)
 
-An open-source prompt engineering framework and configuration guide designed for Web3 Content Creators, KOLs, and Educators. This setup connects the free Claude Desktop application directly to the official **Binance Agent OS Model Context Protocol (MCP)** server via a secure remote HTTP transport gateway.
+A simple, 100% no-code AI agent built with the official **Binance Agent OS**.
 
-This repository fulfills the open-source technical documentation requirement for the **Binance Agent OS Mini Hackathon (Track A)** and the **Binance Creator Challenge #002**.
+This agent helps Web3 creators and educators:
+- Pull live market data (order books + 24h metrics) from Binance
+- Automatically write short-form video scripts
+- Prepare and execute small secure spot trades inside an isolated Agentic sub-account
 
----
-
-## 💡 The Value Proposition
-Web3 community leads and creators waste hours scraping market data manually to write content updates. This framework enables an autonomous AI Co-Pilot that runs completely via natural language to:
-1. Fetch live market tickers, 24-hour volume changes, and real-time order book depth directly from Binance infrastructure.
-2. Structure high-retention short-form video scripts instantly based on that data.
-3. Formulate and route secure spot micro-trades within an isolated, withdrawal-blocked **Agentic virtual sub-account** for automated portfolio rebalancing.
+Built for the **Binance Agent OS Mini Hackathon (Track A)** and **Binance Creator Challenge #002**.
 
 ---
 
-## 🛠️ Setup Instructions (100% Code-Free)
+## ✨ What This Agent Does
 
-### 1. Prerequisite Software
-* Download and install the free [Claude Desktop Application](https://claude.ai).
-
-### 2. Connect the Remote Server Manually
-Because the official Binance Agent OS uses a remote transport protocol, you do not need to install Node.js locally. Open your system's Claude settings folder to configure the integration:
-* **Windows Path:** Press `Win + R`, paste `%APPDATA%\Claude`, and open `claude_desktop_config.json` with Notepad.
-* **Mac Path:** Open `~/Library/Application Support/Claude/claude_desktop_config.json`.
-
-Overwrite or append the configuration with this official object block:
-
-```json
-{
-  "mcpServers": {
-    "binance-mcp-server": {
-      "command": "curl",
-      "args": [
-        "-s",
-        "https://binance.com"
-      ]
-    }
-  }
-}
-```
-
-### 3. Authenticate & Grant Scopes
-1. Restart your Claude Desktop app.
-2. Click the new **plug icon** in the bottom-right corner of the input box or type `/mcp`.
-3. Choose **[Authenticate]**. A secure Binance OAuth portal will open in your web browser.
-4. Log into your account and authorize the connection for **Market Data**, **Account Read**, and **Spot Trade** scopes. 
-5. Fund the newly spawned **Agentic sub-account** with a small testing budget (e.g., $10–$20 USDT) via your Binance dashboard under *Sub-account Management*.
+1. Shows your current USDT balance in the Agentic sub-account  
+2. Scans live order book depth and 24-hour data for BNB, BTC, and ETH  
+3. Turns that data into a punchy 60-second video script for @akahilz  
+4. Prepares a $10 BNB micro-trade and waits for your approval before executing
 
 ---
 
-## 📊 Deployment Workflow
-Once connected, copy the template instructions inside the `prompts.txt` file in this repository and paste them directly into your Claude Desktop chat workspace to run the live media and execution pipeline.
+## 🛠️ How to Set It Up (Completely Free & No Code)
+
+### Step 1: Open Claude
+Use the free Claude Desktop app or go to [claude.ai](https://claude.ai) in your browser and log in.
+
+### Step 2: Add the Official Binance Agent OS Connector
+1. Go to **Settings** (or Customize) → **Connectors**
+2. Click **Add custom connector**
+3. Name: `Binance Agent OS`
+4. URL: `https://agent.binance.com/mcp/agentic`
+5. Click Add
+
+### Step 3: Authenticate
+- A Binance login page will open
+- Log in and turn ON these permissions only:
+  - Market Data
+  - Account (Read)
+  - Spot Trade
+- Confirm
+
+### Step 4: Fund the Agentic Sub-Account
+- Go to Binance → Profile → Sub-account → Account Management
+- Transfer a small amount (e.g. $10–$20 USDT) into the new Agentic sub-account
+
+---
+
+## 🚀 How to Run the Agent
+
+Copy the prompt from the `prompts.txt` file in this repository and paste it into Claude.
+
+The agent will:
+- Show your balance
+- Fetch live market data
+- Write a video script
+- Prepare the $10 BNB trade for your approval
+
+---
+
+## 📁 Files in this Repository
+
+- `README.md` → This guide
+- `prompts.txt` → The exact prompt used in the live demonstration
+
+---
+
+## 🎥 Live Demo
+[See X @akahilz2 for video or my other socials (Tiktok, YouTube)]
+
+Built by Kelvin Anamali (Akahilz) – Akahilz E-Learning Academy
