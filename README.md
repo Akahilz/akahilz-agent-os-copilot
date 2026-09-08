@@ -1,4 +1,4 @@
-# 🤖 Akahilz E-Learning Academy – K-Agent (KOL Content & Execution Co-Pilot)
+# 🤖 Akahilz E-Learning Academy – BinaKOL aka the K-Agent (KOL Content & Execution Co-Pilot)
 
 A simple, 100% no-code AI agent built with the official **Binance Agent OS**.
 
