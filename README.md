@@ -22,50 +22,56 @@ Built for the **Binance Agent OS Mini Hackathon (Track A)** and **Binance Creato
 
 ## 🛠️ How to Set It Up (Completely Free & No Code)
 
-### Step 1: Open Claude
-Use the free Claude Desktop app or go to [claude.ai](https://claude.ai) in your browser and log in.
+You can run BinaKOL on **Claude** or **ChatGPT**. Both methods are shown below.
 
-### Step 2: Add the Official Binance Agent OS Connector
-1. Go to **Settings** (or Customize) → **Connectors**
-2. Click **Add custom connector**
-3. Name: `Binance Agent OS`
-4. URL: `https://agent.binance.com/mcp/agentic`
-5. Click Add
+### Option 1: Claude (Recommended for free users)
 
-### Step 3: Authenticate
-- A Binance login page will open
-- Log in and turn ON these permissions only:
-  - Market Data
-  - Account (Read)
-  - Spot Trade
-- Confirm
+1. Open free Claude (claude.ai in browser or Claude Desktop app) and log in.
+2. Go to **Settings** → **Connectors** → **Add custom connector**
+   - Name: `Binance Agent OS`
+   - URL: `https://agent.binance.com/mcp/agentic`
+3. Click Add and authenticate with your Binance account.
+4. Enable these permissions only:
+   - Market Data
+   - Account (Read)
+   - Spot Trade
+5. Fund your Agentic sub-account with $10–$20 USDT.
 
-### Step 4: Fund the Agentic Sub-Account
-- Go to Binance → Profile → Sub-account → Account Management
-- Transfer a small amount (e.g. $10–$20 USDT) into the new Agentic sub-account
+### Option 2: ChatGPT
+
+1. Open ChatGPT (ChatGPT Plus recommended for best experience).
+2. Turn on **Developer Mode** (Settings → Apps & Connectors / Developer features).
+3. Add the Binance MCP / plugin using the official endpoint:  
+   `https://agent.binance.com/mcp/agentic`
+4. Authenticate with your Binance account and approve the same permissions (Market Data, Account Read, Spot Trade).
+5. Fund your Agentic sub-account with $10–$20 USDT.
 
 ---
 
 ## 🚀 How to Run the KOL Agent
 
-Copy the prompt from the `prompts.txt` file in this repository and paste it into Claude.
-
-The agent will:
-- Show your balance
-- Fetch live market data
-- Write a video script
-- Prepare the $10 BNB trade for your approval
+1. Copy the Master Prompt from the `prompts.txt` file in this repository.
+2. Paste it into Claude or ChatGPT.
+3. The agent will:
+   - Show your balance
+   - Fetch live market data
+   - Write a video script
+   - Prepare the $10 BNB trade for your approval
 
 ---
 
 ## 📁 Files in this Repository
 
 - `README.md` → This guide
-- `prompts.txt` → The exact prompt used in the live demonstration
+- `prompts.txt` → The exact Master Prompt used in the live demonstration
+- `50-FAQs.md` → 50 frequently asked questions
+- `50-Prompts-to-Try.md` → 50 extra prompts you can experiment with
 
 ---
 
 ## 🎥 Live Demo
-[See X @akahilz2 for video or my other socials (Tiktok, YouTube)]
+
+- X: https://x.com/Akahilz2/status/2097262746685395327  
+- Also available on YouTube and TikTok (links in the video comments)
 
 Built by Kelvin Anamali (Akahilz) – Akahilz E-Learning Academy
