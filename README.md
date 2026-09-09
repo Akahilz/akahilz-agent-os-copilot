@@ -71,7 +71,9 @@ You can run BinaKOL on **Claude** or **ChatGPT**. Both methods are shown below.
 
 ## 🎥 Live Demo
 
-- X: https://x.com/Akahilz2/status/2097262746685395327  
+- X: https://x.com/Akahilz2/
 - Also available on YouTube and TikTok (links in the video comments)
+https://www.youtube.com/@AKAHILZ
+https://www.tiktok.com/@akahilz
 
 Built by Kelvin Anamali (Akahilz) – Akahilz E-Learning Academy
